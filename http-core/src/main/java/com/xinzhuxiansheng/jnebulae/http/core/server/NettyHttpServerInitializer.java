@@ -1,8 +1,8 @@
 package com.xinzhuxiansheng.jnebulae.http.core.server;
 
-import com.redant.core.common.constants.CommonConstants;
-import com.redant.core.handler.ControllerDispatcher;
-import com.redant.core.handler.ssl.SslContextHelper;
+import com.xinzhuxiansheng.jnebulae.http.core.common.constants.CommonConstants;
+import com.xinzhuxiansheng.jnebulae.http.core.handler.ControllerDispatcher;
+import com.xinzhuxiansheng.jnebulae.http.core.handler.ssl.SslContextHelper;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
@@ -18,8 +18,7 @@ import org.slf4j.LoggerFactory;
 import javax.net.ssl.SSLEngine;
 
 /**
- * @author houyi.wh
- * @date 2019-01-17
+ * 创建子处理器
  */
 public class NettyHttpServerInitializer extends ChannelInitializer<SocketChannel> {
 
